@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+body {
+    background-color: rgb(132, 39, 16);
+    color: #222222;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(3, 3, 3, 0.157);
+    color: #d9d9d9;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    animation: header;
+    animation-duration: 2s;
+}
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 0}
+
+}
+
+h1, h2 {
+    font-family: "Poetsen One", sans-serif;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(239, 200, 195, 0.104);
+    position: relative;
+    animation: main;
+    animation-duration: 2s;
+}
+
+@keyframes main {
+    0% {left: -5000px;}
+    100% {left: 0}   
+}
+
+
+.pilt {
+    margin-bottom: 10px;
+}
+
+.tekst {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 10px solid #ffffff0b;
+    text-align: left;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    animation: footer;
+    animation-duration: 30s;
+}
+
+@keyframes footer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+hr {
+    margin: 20px 0;
+}
